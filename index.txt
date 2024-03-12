@@ -1,0 +1,23 @@
+1.Write a Blog on Difference between HTTP 1.1 VS HTTP 2.
+
+                                            HTTP 1.1
+
+1.	HTTP/1.1 which was created in 1997.
+2.	It works on the textual format.
+3.	There is head of line blocking that blocks all the requests behind it until it doesn’t get its all resources. 
+4.	It uses requests resource In-lining for use getting multiple pages.
+5.	It compresses data by itself.
+
+                                                   HTTP 2
+
+1.	The new one is HTTP/2 which was created in 2015.
+2.	It works on the binary protocol.
+3.	It allows multiplexing so one TCP connection is required for multiple requests.
+4.	It uses PUSH frame by server that collects all multiple pages.
+5.	It uses HPACK for data compression.
+
+2.Write a Blog about Objects and Internal Representation in Java-script.
+
+ Objects, in JavaScript, is it most important data-type and forms the building blocks for modern JavaScript. These objects are quite different from JavaScript’s primitive data-types (Number, String, Boolean, null, undefined and symbol) in the sense that while these primitive data-types all store a single value each (depending on their types).
+Objects are more complex and each object may contain any combination of these primitive data-types as well as reference data-types.
+An object, is a reference data type. Variables that are assigned a reference value are given a reference or a pointer to that value. That reference or pointer points to the location in memory where the object is stored. The variables don’t actually store the value.
